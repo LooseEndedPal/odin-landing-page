@@ -51,7 +51,7 @@ nav{
     gap: 15px;
 }
 
-body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container{
+body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container,.quote-content{
     display: flex;
     flex-direction: column;
 }
@@ -110,4 +110,25 @@ nav, ul, .header, .hero-container{
 .info-container{
     align-items: center;
     margin-top: 50px;
+}
+
+.quote-content{
+    background-color: #EFE7EB;
+    padding: 70px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    width: 650px;
+    font-style: italic;
+}
+
+.author{
+    color: #1F2937;
+    font-weight: 300;
+    align-self: flex-end;
+    font-size: 24px;
 }
