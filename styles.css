@@ -51,7 +51,7 @@ nav{
     gap: 15px;
 }
 
-body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container,.quote-content{
+body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container, .quote-content, .quote-container{
     display: flex;
     flex-direction: column;
 }
