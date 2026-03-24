@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 h2{
@@ -51,12 +53,12 @@ nav{
     gap: 15px;
 }
 
-body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container, .quote-content, .quote-container, .text-container{
+body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container, .quote-content, .quote-container{
     display: flex;
     flex-direction: column;
 }
 
-nav, ul, .header, .hero-container, .call-to-action-container, .footer{
+nav, ul, .header, .hero-container, .call-to-action-container, .text-container, .footer{
     display: flex;
     flex-direction: row;
 }
@@ -66,11 +68,18 @@ nav, ul, .header, .hero-container, .call-to-action-container, .footer{
 }
 
 .call-to-action-container{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.text-container{
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
-    padding: 60px;
     width: 80%;
-    align-self: center;
-    height: 100px;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 .call-to-action{
@@ -80,8 +89,13 @@ nav, ul, .header, .hero-container, .call-to-action-container, .footer{
 }
 
 .call-to-action-subtext{
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
+    font-weight: 100;
+}
+
+.call-to-action-button{
+    border: 3px solid #E5E7EB;
 }
 
 .right-hero-container{
