@@ -51,18 +51,37 @@ nav{
     gap: 15px;
 }
 
-body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container, .quote-content, .quote-container{
+body, .top-container, .hero-content, .left-hero-container, .right-hero-container, .info-container, .quote-content, .quote-container, .text-container{
     display: flex;
     flex-direction: column;
 }
 
-nav, ul, .header, .hero-container{
+nav, ul, .header, .hero-container, .call-to-action-container{
     display: flex;
     flex-direction: row;
 }
 
 .left-hero-container, .right-hero-container{
     gap: 100px;
+}
+
+.call-to-action-container{
+    background-color: #3882F6;
+    padding: 60px;
+    width: 80%;
+    align-self: center;
+    height: 100px;
+}
+
+.call-to-action{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.call-to-action-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .right-hero-container{
